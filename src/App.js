@@ -34,7 +34,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src="./todo.png" className="App-logo" alt="logo" />
           <form onSubmit={this.handleSubmit}>
             <input type="text" value={this.state.inputValue} onChange={this.handleChange}></input>
             <button type="submit">Submit Here</button>
